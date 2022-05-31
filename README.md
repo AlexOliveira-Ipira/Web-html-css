@@ -2,7 +2,9 @@
 Repositório do Modulo II do Bootcamp da DIO em parceria com a Unimed BH
 
 #Rodando em container sem a necessidade de fazer nenhuma instalação
+
 ##Comando docker
+
 docker run -d --rm -p 80:80 --name aulaphp2 -v "$PWD":/var/www/html php:7.2-apache
 
 - HTML - Linguagem de marcação 
@@ -135,6 +137,6 @@ docker run -d --rm -p 80:80 --name aulaphp2 -v "$PWD":/var/www/html php:7.2-apac
     - WYS / WYG - O que você ver é o que você recebe
 
 - Link indicado no final do curso
-  - jQuery.com
-  - w3schools.com
+  - [jQuery.com](https://jquery.com/)
+  - [w3schools.com](https://www.w3schools.com/)
   
