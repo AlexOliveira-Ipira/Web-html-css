@@ -1,9 +1,9 @@
 # Web-html-css
 Repositório do Modulo II do Bootcamp da DIO em parceria com a Unimed BH
 
-#Rodando em container sem a necessidade de fazer nenhuma instalação
+# Rodando em container sem a necessidade de fazer nenhuma instalação
 
-##Comando docker
+## Comando docker
 
 docker run -d --rm -p 80:80 --name aulaphp2 -v "$PWD":/var/www/html php:7.2-apache
 
