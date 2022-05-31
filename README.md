@@ -1,6 +1,10 @@
 # Web-html-css
 Repositório do Modulo II do Bootcamp da DIO em parceria com a Unimed BH
 
+#Rodando em container sem a necessidade de fazer nenhuma instalação
+##Comando docker
+docker run -d --rm -p 80:80 --name aulaphp2 -v "$PWD":/var/www/html php:7.2-apache
+
 - HTML - Linguagem de marcação 
 - HTTP - Protocolo de internet
 - LINK - Ligação
@@ -129,3 +133,8 @@ Repositório do Modulo II do Bootcamp da DIO em parceria com a Unimed BH
     - UX - Experiencia do usuário
     - Versão - Não é regra mais o usual é antes do ponto indica mudançcas grandes depois do ponto ajustes e/ou correção
     - WYS / WYG - O que você ver é o que você recebe
+
+- Link indicado no final do curso
+  - jQuery.com
+  - w3schools.com
+  
