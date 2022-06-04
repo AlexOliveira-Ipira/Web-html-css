@@ -86,5 +86,17 @@
 
   - Flex
     - Esta propriedade é um atalho ou abreviação de escrita para as propriedade: grow, shrink e basis.
-      - 
   
+
+  - Order
+    - Ordena os elementos dos itens
+  
+  - Align-self
+    - É a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+    - O conteainer não pode ter um align item definido
+      - auto: valor padrão, irpa respeitar a definição de align-items do container
+      - flex-start: ao início do container
+      - flex-end: ao final do container
+      - center: relativo ao centro de acordo com o eixo
+      - stretch: ocupa todo os espaço relativo
+      - baseline: utiliza a linha base da tipografia

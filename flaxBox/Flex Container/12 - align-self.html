@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align self</title>
+    <style>
+        .flex-container{
+            display: flex;
+            max-width: 450px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            
+        }
+
+        .direction{
+            flex-direction: column;
+        }
+        .aling-container{
+            align-items: center;
+        }
+
+        .item{
+            background-color: brown;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+        .auto{
+            align-self: auto;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Row</h1>
+    <p>Align self: auto</p>
+    <div class="flex-container">
+        <div class="item auto">aaaaa</div>
+        <div class="item auto">fdsjfasjkfhasf asdkçjfashf asdfasd</div>
+        <div class="item auto">sdfdsfsadfsd</div>
+        <div class="item auto">sfsdfsfd</div>
+    </div>
+    
+    <p>Segunda base</p>
+    <div class="flex-container">
+        <div class="item center">aaaaa</div>
+        <div class="item start">sfsdfsfd</div>  
+        <div class="item baseline">fdsjfasjkfhasf asdkçjfashf asdfasd</div>
+        <div class="item end ">sdfdsfsadfsd</div>
+    </div>
+
+    <p>Terceira base</p>
+    <div class="flex-container">
+        <div class="item center">aaaaa</div>
+        <div class="item start">sfsdfsfd</div>
+        <div class="item end ">sdfdsfsadfsd</div>
+        <div class="item baseline">fdsjfasjkfhasf asdkçjfashf asdfasd</div>
+    </div>
+
+    <h1>Column</h1>
+    <p>Align self: auto</p>
+    <div class="flex-container direction">
+        <div class="item auto">aaaaa</div>
+        <div class="item auto">fdsjfasjkfhasf asdkçjfashf asdfasd</div>
+        <div class="item auto">sdfdsfsadfsd</div>
+        <div class="item auto">sfsdfsfd</div>
+    </div>
+    
+    <p>Segunda base</p>
+    <div class="flex-container direction">
+        <div class="item center">aaaaa</div>
+        <div class="item start">sfsdfsfd</div>  
+        <div class="item baseline">fdsjfasjkfhasf asdkçjfashf asdfasd</div>
+        <div class="item end ">sdfdsfsadfsd</div>
+    </div>
+
+    <p>Terceira base</p>
+    <div class="flex-container direction">
+        <div class="item center">aaaaa</div>
+        <div class="item start">sfsdfsfd</div>
+        <div class="item end ">sdfdsfsadfsd</div>
+        <div class="item baseline">fdsjfasjkfhasf asdkçjfashf asdfasd</div>
+    </div>
+</body>
+</html>

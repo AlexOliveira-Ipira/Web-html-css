@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Order</title>
+    <style>
+        .flex-container{
+            display: flex;
+            max-width: 350px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+
+        .item{
+            flex: 1;
+            background: brown;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            margin: 5px;
+        }
+        .o1{
+            order: 1;
+        }
+
+        .o2{
+            order: 2;
+        }
+
+        .o3{
+            order: 3;
+        }
+        .o4{
+            order: 4;
+        }
+        .o5{
+            order: 5;
+        }
+
+        .dirction{
+            flex-direction: column;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Row</h1>
+    <p>Order: 0</p>
+    <div class="flex-container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">4n</div>
+        <div class="item">4m</div>
+    </div>
+
+    <p>Order: diferentes</p>
+    <div class="flex-container">
+        <div class="item o22">1</div>
+        <div class="item o5">2</div>
+        <div class="item 04">3</div>
+        <div class="item o3">4</div>
+        <div class="item o2">4n</div>
+        <div class="item o1">4m</div>
+    </div>
+
+    <h1>Column</h1>
+    <p>Order: 0</p>
+    <div class="flex-container dirction">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">4m</div>
+    </div>
+
+    <p>Order: diferentes</p>
+    <div class="flex-container dirction">
+        <div class="item o5">1</div>
+        <div class="item o4">2</div>
+        <div class="item o3">3</div>
+        <div class="item o2">4</div>
+        <div class="item o1">5</div>
+        <div class="item ">4m</div>
+       <!-- Se não colocar nada na ordem ela não é 
+      influenciada pela ordem dos outros itens --> 
+    </div>
+</body>
+</html>
