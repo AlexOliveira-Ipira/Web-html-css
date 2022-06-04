@@ -73,7 +73,18 @@
   - OBS.; Não itá funcionar caso tenhamos adicionado justify-content ao nosso flex container
 
 
-  - Flex basis
+  - Flex-basis
     - É a propriedade que estabelece o tamanho inicial do item antes das distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto.
-    - 
+      - auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
+      - px, %, em, ...: São valores exatos previamente definidos
+      - 0 (zero): terá relação com a definição do flex-grow
+  
+
+  - Flex-shrink
+    - É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+
+
+  - Flex
+    - Esta propriedade é um atalho ou abreviação de escrita para as propriedade: grow, shrink e basis.
+      - 
   
