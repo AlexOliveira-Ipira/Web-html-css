@@ -1,12 +1,6 @@
 # Web-html-css
 Repositório do Modulo II do Bootcamp da DIO em parceria com a Unimed BH
 
-# Rodando em container sem a necessidade de fazer nenhuma instalação
-
-## Comando docker
-
-docker run -d --rm -p 80:80 --name aulaphp2 -v "$PWD":/var/www/html php:7.2-apache
-
 - HTML - Linguagem de marcação 
 - HTTP - Protocolo de internet
 - LINK - Ligação
@@ -73,6 +67,7 @@ docker run -d --rm -p 80:80 --name aulaphp2 -v "$PWD":/var/www/html php:7.2-apac
   - Linguagem de marcação
     -  HTML
     -  CSS
+  
   - Linguagem de programação
     - JavaScript (jQuery, AJAX, diversas ligs)
     - PHP
@@ -83,6 +78,8 @@ docker run -d --rm -p 80:80 --name aulaphp2 -v "$PWD":/var/www/html php:7.2-apac
     - Python
     - Perl
     - C/C++/C#
+
+
   - Termos Comuns
     - 200
     - 404
