@@ -62,5 +62,18 @@
       - flex-end: alinhamento dos itens no final
       - space-between: cria um espaçamento igual entre os elementos
       - space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
+  
+
+## Flex Items
+
+### Arquivos de exemplo a partir do 7 - flex-grou.html
+
+  - Flex-grow
+    - Define a proporcionalidade de crescimentos dos itens, respeitando o tamanho de seus conteúdos internos.
+  - OBS.; Não itá funcionar caso tenhamos adicionado justify-content ao nosso flex container
+
+
+  - Flex basis
+    - É a propriedade que estabelece o tamanho inicial do item antes das distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto.
     - 
   
