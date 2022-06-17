@@ -18,20 +18,30 @@
     - **tsconfig e tslint** - Arquivos de configuração do TypeScript.
 
 #Alguns comandos utéis
+
 Scaffold    -   Usage
+
 Component       ng g component my-new-component
+
 Directive       ng g directive my-new-directive
+
 Pipe            ng g pipe my-new-pipe
+
 Service         ng g service my-new-servie
+
 Class           ng g class my-new-class
+
 Guard           ng g guard my-new-guard
+
 Interace        ng g interface my-new-interface
+
 Enum            ng g enum my-new-enum
+
 Module          ng g module my-module
 
+
 #Diretivas do Angular
+
 ### As diretivas fornecem meios para que possamos manipular o DOM ou estender as funcionalidades do elemento.
 
 ## Diretivas de atributos: Alteram a aparência ou o comportamento de um elemento, componente ou outra diretiva, como por exmplo, **NgClass** e **NgStyle**.
-
-##
