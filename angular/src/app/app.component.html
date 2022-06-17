@@ -1,1 +1,131 @@
-<h1 class="text-sucess">Aprendendo Angular Diretivas</h1>
+<body>
+<h1 class="text-success text-center">Aprendendo Angular Diretivas</h1>
+<br/>
+<!--Opção do COntador Simples sem diretiva, apenas um loop ao iniciar a pagina -->
+<p class="text-center"><b> Contador simples sem uso de diretivas</b></p>
+<h2 class="text-center">Contador: {{contador}}</h2>
+<br/>
+
+<p class="text-center fs-5"><b> Criando uma diretiva para mudar o estilo da linha </b></p>
+<p class="text-center fs-5"> <b> após o valor chegar a {{valorCOntagem}}</b></p>
+<div [ngStyle]="{color: contador <= valorCOntagem ? 'yellow': 'green'}" >
+    <h2 class="text-center fs-2">Contador:  {{contador}} </h2>      
+</div>
+<br/>
+
+<p class="text-center fs-5"><b> Criando uma diretiva para mudar o estilo da class</b></p>
+<p class="text-center fs-5"> <b> após o valor chegar a {{valorCOntagem}}</b></p>
+<!--[ngStyle]="{color: contador <= 5 ? 'red': 'green'}" -->
+<div [ngClass]="{custom: contador > valorCOntagem}">
+    <h2 class="text-center fs-2">Contador:  {{contador}} </h2>      
+</div>
+<br/>
+
+<div>
+    <h1 class="text-center">Diretivas Estruturais</h1>
+    <p class="text-center fs-3"><b> Usando a diretiva ngIf e o else com o ng-template </b></p>
+    <h2 class="text-center" *ngIf="contador >=7; else menor" 
+        [ngStyle]="{color: contador >=7 ? 'yellow': 'green'}"
+        > O contador agora é maior que 7</h2>
+    <ng-template #menor>
+        <h2 class="text-center"
+        [ngClass]="{menor: contador < 7}"  >O contador é menor que 7</h2>
+    </ng-template>
+</div>
+<br/>
+
+<div>
+    <h1 class="text-center"> Usando a diretiva ngSwitch </h1> 
+    <ul [ngSwitch]="contador" class="list-group mx-auto col-3">
+
+        <li class="list-group-item fs-3 text-center"
+            *ngSwitchCase="0"
+            >O valor {{contador}} é par
+        </li>
+
+        <li class="list-group-item fs-3 text-center"
+            *ngSwitchCase="2"
+            >O valor {{contador}} é par
+        </li>
+
+        <li class="list-group-item fs-3 text-center"
+            *ngSwitchCase="4"
+            >O valor {{contador}} é par
+        </li>
+
+        <li class="list-group-item fs-3 text-center"
+            *ngSwitchCase="6"
+            >O valor {{contador}} é par
+        </li>
+
+        <li class="list-group-item fs-3 text-center"
+            *ngSwitchCase="8"
+            >O valor {{contador}} é par
+        </li>
+        <li class="list-group-item fs-3 text-center"
+            *ngSwitchDefault
+        >O valor {{contador}} é impar</li>
+    </ul>
+</div>
+
+<div>
+    <h1 class="text-center"> Diretiva ngFor</h1>
+    <br/>
+    <p class="text-center
+        fs-2"><b> Usando um laço FOR para interar em um objerto criado no ap.componente.ts </b></p>
+    <ul class="list-group mx-auto col-3" >
+        <li 
+            class="list-group-item fs-3 text-center"
+            *ngFor="let pessoa of pessoas">
+             O nome da pessoa é {{pessoa.nome}} {{pessoa.sobrenome}}
+        </li>
+        <br/>
+    </ul>
+</div>
+
+
+<div>
+    <h1 class="text-center fs-1"> Envaindo dados do TS para o HTML "Logica para o template" </h1>
+    <p class="text-center fs-3"> <b> Recebendo dados do TS o nome  </b></p>
+    <p class="text-center fs-3"> <b>  vinculado a variaável foi {{nome}}</b></p>
+</div>
+
+<div>
+    <h1 class="text-center fs-1"> Mandando informações do HTM para o TS </h1>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class= "btn btn-success text-center" (click)="cliclou()">Clique Aqui!</button>
+    </div>
+</div>
+<br/>
+<br/>
+
+<h1 class="text-center fs-1"> Comunicação bi direcional </h1>
+<p class="text-center fs-3"> Para usar a comunicação bi direcional tem de importar o modulo</p>
+<p class="text-center fs-3"> dentro de app.modules.ts em  imports:</p> 
+<br/>
+<div calss="'col-2 mx-auto">
+    <input 
+    type="text" class="form-control" 
+    placeholder="Digite alguma coisa aqui." 
+    [(ngModel)]="testo">
+    <h4> Sainda: {{testo}} </h4>
+</div>
+
+<h1 class="text-center"> Criar a sua propria diretiva</h1>
+<p class="text-center"> Usando o ngGenerete , <b>depois estudar mais sobre o assunto</b></p>
+<p class="text-center"> Para criar essa diretiva deve ser digitado o seguinte comando: </p>
+<P class="text-center"> ng g d "nome da diretiva" </P>
+<p class="text-center"> para criar em um diretornio ng g d "diretorio"/"nome da diretiva"</p>
+<p class="text-center"> exemplo ng g d directives/marcatesto</p>
+<br/>
+<br/>
+<h2 class="text-center">Usando a diretiva Criada sem parametros</h2>
+<h2 class="text-center fs-2" 
+appMarcatesto> Contador:  {{contador}} </h2>
+
+
+<h2 class="text-center">Usando a diretiva Criada com parametros</h2>
+<h2 class="text-center fs-2" 
+appMarcatesto corDeFundo="blue" corDoTexto="blck"> Contador:  {{contador}} </h2> 
+
+</body>
