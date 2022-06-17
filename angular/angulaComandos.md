@@ -45,3 +45,38 @@ Module          ng g module my-module
 ### As diretivas fornecem meios para que possamos manipular o DOM ou estender as funcionalidades do elemento.
 
 ## Diretivas de atributos: Alteram a aparência ou o comportamento de um elemento, componente ou outra diretiva, como por exmplo, **NgClass** e **NgStyle**.
+
+## Diretivas estruturas: Modificam o layout adicionando ou removendo elementos do DOM, como por exemplo, **NgIf e NgFor.
+
+# Diretivas
+
+    1 - Directives Atributos
+        **ngClass**** - ngStyle**
+
+    2 - Directives Structural
+        **ngIf** - **ngFor** - **ngSwitch**
+    
+    3 - Directives
+        **Higliter** - **Dropdown**
+
+# Ajustando a aplicação depois de criar.
+
+Apagar os dados do app > app.component.html e o titulo em app.component.ts
+
+# Instalar o Boptstrap 
+
+    Usar o CSS do Bootstrap nesse aplicação
+
+    Instalar
+
+    `npm install bootstrap`
+
+    Para saber se tem o bootstrap instalado verificar em 
+
+    package.json
+
+    Após instalar fazer ajuste no angula.json
+
+    NO angular.json mudar alinha:
+        style dentro da build
+
