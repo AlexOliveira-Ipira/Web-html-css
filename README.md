@@ -1,27 +1,38 @@
-#Inicializando porjetos em Angular
-##Instalar o Angular
+# Inicializando porjetos em Angular
+
+## Instalar o Angular
 ### npm install -g @angular/cli
 
 ## Criar projeto
 ### ng new "Nome do projeto"
 
-##Instalr o Bootstrap em Angular
-##npm install --save bootstrap
+## Instalr o Bootstrap em Angular
+## npm install --save bootstrap
 
 após esse processo fazer a configuração do caminho em angular.json, 
 build --> Style
 
 #Estrutura de pastas 
-    - **node_modules** - Responsável por armazenar as dependências e pacotes do projeto
-    - **src** - Diretório da aplicação, onde nós criamos os nossos módulos, componentes, rotas, srviços e tudo que fizer parte da aplicação
-    - **browserlistrc** - Usado pelo sistema de build para ajustar a saída CSS e JS para suportar os navegadores listados.
-    - **.editorconfig** - Configurações do editor de código.
-    - **.gitingnore** - Arquivo do fit que utilizamos para o gerenciamento dos arquivos que serão ignorados no momento do nosso cmmmit.
-    - **angular.json** - Arquivo de configuração do angular.
-    - **Karma.config.hs** - Congiuração do Karma para teste unitãrio
-    - **package.json** - Congiurações das dependências e scripts do npm
-    - **README.md** - Arquivo Markdown para documentação da nossa aplicação.
-    - **tsconfig e tslint** - Arquivos de configuração do TypeScript.
+
+- **node_modules** - Responsável por armazenar as dependências e pacotes do projeto
+  
+- **src** - Diretório da aplicação, onde nós criamos os nossos módulos, componentes, rotas, srviços e tudo que fizer parte da aplicação
+  
+- **browserlistrc** - Usado pelo sistema de build para ajustar a saída CSS e JS para suportar os navegadores listados.
+  
+- **.editorconfig** - Configurações do editor de código.
+
+- **.gitingnore** - Arquivo do fit que utilizamos para o gerenciamento dos arquivos que serão ignorados no momento do nosso cmmmit.
+ 
+- **angular.json** - Arquivo de configuração do angular.
+   
+- **Karma.config.hs** - Congiuração do Karma para teste unitãrio
+ 
+- **package.json** - Congiurações das dependências e scripts do npm
+
+- **README.md** - Arquivo Markdown para documentação da nossa aplicação.
+
+- **tsconfig e tslint** - Arquivos de configuração do TypeScript.
 
 #Alguns comandos utéis
 
