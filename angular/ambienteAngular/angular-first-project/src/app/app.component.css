@@ -1,0 +1,20 @@
+.custom{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;  
+    background-color: blue; 
+}
+
+.maior{
+    color: #808080;
+    font-weight: bold;
+    font-style: italic;  
+    background-color: blue; 
+}
+
+.menor{
+    color:blue;
+    font-weight: bold;
+    font-style: italic;  
+    background-color: #808080; 
+}

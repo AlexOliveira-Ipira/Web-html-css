@@ -5,6 +5,12 @@
 ## Criar projeto
 ### ng new "Nome do projeto"
 
+##Instalr o Bootstrap em Angular
+##npm install --save bootstrap
+
+após esse processo fazer a configuração do caminho em angular.json, 
+build --> Style
+
 #Estrutura de pastas 
     - **node_modules** - Responsável por armazenar as dependências e pacotes do projeto
     - **src** - Diretório da aplicação, onde nós criamos os nossos módulos, componentes, rotas, srviços e tudo que fizer parte da aplicação
