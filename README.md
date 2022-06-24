@@ -34,30 +34,30 @@ build --> Style
 
 - **tsconfig e tslint** - Arquivos de configuração do TypeScript.
 
-#Alguns comandos utéis
+# Alguns comandos utéis
 
-Scaffold    -   Usage
+**Scaffold**    -   Usage
 
-Component       ng g component my-new-component
+**Component**       ng g component my-new-component
 
-Directive       ng g directive my-new-directive
+**Directive**       ng g directive my-new-directive
 
-Pipe            ng g pipe my-new-pipe
+**Pipe**            ng g pipe my-new-pipe
 
-Service         ng g service my-new-servie
+**Service**         ng g service my-new-servie
 
-Class           ng g class my-new-class
+**Class**           ng g class my-new-class
 
-Guard           ng g guard my-new-guard
+**Guard**           ng g guard my-new-guard
 
-Interace        ng g interface my-new-interface
+**Interace**        ng g interface my-new-interface
 
-Enum            ng g enum my-new-enum
+**Enum**           ng g enum my-new-enum
 
-Module          ng g module my-module
+**Module**          ng g module my-module
 
 
-#Diretivas do Angular
+# Diretivas do Angular
 
 ### As diretivas fornecem meios para que possamos manipular o DOM ou estender as funcionalidades do elemento.
 
@@ -80,7 +80,7 @@ Module          ng g module my-module
 
 Apagar os dados do app > app.component.html e o titulo em app.component.ts
 
-# Instalar o Boptstrap 
+# Instalar o Bootstrap 
 
     Usar o CSS do Bootstrap nesse aplicação
 
@@ -94,6 +94,6 @@ Apagar os dados do app > app.component.html e o titulo em app.component.ts
 
     Após instalar fazer ajuste no angula.json
 
-    NO angular.json mudar alinha:
+    NO angular.json mudar a linha:
         style dentro da build
 
