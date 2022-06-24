@@ -63,18 +63,18 @@ build --> Style
 
 ## Diretivas de atributos: Alteram a aparência ou o comportamento de um elemento, componente ou outra diretiva, como por exmplo, **NgClass** e **NgStyle**.
 
-## Diretivas estruturas: Modificam o layout adicionando ou removendo elementos do DOM, como por exemplo, **NgIf e NgFor.
+## Diretivas estruturas: Modificam o layout adicionando ou removendo elementos do DOM, como por exemplo, **NgIf e NgFor**.
 
 # Diretivas
 
     1 - Directives Atributos
-        **ngClass**** - ngStyle**
+        ngClass - ngStyle
 
     2 - Directives Structural
-        **ngIf** - **ngFor** - **ngSwitch**
+        ngIf - ngFor - ngSwitch
     
     3 - Directives
-        **Higliter** - **Dropdown**
+        Higliter - Dropdown
 
 # Ajustando a aplicação depois de criar.
 
