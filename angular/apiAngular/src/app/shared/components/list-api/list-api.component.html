@@ -1,0 +1,11 @@
+<section class="d-flex align-items-center justify-content-sm-around flex-wrap">
+    <div class="card my-2"  style="width: 18rem;" *ngFor="let personagem of listaPersonaens " >
+        <img [src]="personagem.image" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">{{personagem.name}}</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       
+        <a [href]="personagem.episode" class="btn btn-primary">Episodio</a>
+        </div>
+    </div>
+</section>
